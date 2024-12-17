@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header_container">
+        <div class="logo_container">
+          <div class="logo_images">
+            <img src="images.png" alt="img">
+          </div>
+          <div class="logo_header">
+            <div class="logo_title">New Era</div>
+            <div class="logo_text"> Real estetic</div>
+          </div>
+        </div>
+        <div class="main_container">
+          <ul>
+            <li><a href="">glavnaya</a></li>
+            <li><a href="">texnology</a></li>
+            <li><a href="">novosty</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </div>
+        <div class="header_karzina">
+          <div class="header-tools">
+            <!-- Поле поиска -->
+            <div class="search-box">
+              <input type="text" id="search-input" placeholder="Поиск...">
+              <button id="search-button">🔍</button>
+            </div>
+            <!-- Корзина -->
+            <div class="cart">
+              <button id="cart-button">🛒 Корзина (<span id="cart-count">0</span>)</button>
+              <div id="cart-dropdown" class="hidden">
+                <p id="cart-items">Корзина пуста</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="robot_content">
+        <div class="robot">
+          <!-- Голова -->
+          <div class="head">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+          </div>
+          <!-- Тело -->
+          <div class="body"></div>
+          <div class="giovt">
+            <!-- <!-- Руки  -->
+            <div class="arms">
+              <div class="arm left"></div>
+              <div class="arm right"></div>
+            </div>
+          </div>
+          <!-- <!-- Ноги  -->
+          <div class="legs">
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_content">
+        <div class="main_content_blog">
+          <ul>
+            <li><a href="" id="header_blog" <i class="fas fa-star"></i>Novinki</a></li>
+            <li><a href=""> <i class="fas fa-car"></i> Avto</a>
+              <ul>
+                <li><a href=""><i class="fas fa-plug"></i> Avto Elektronika</a></li>
+                <li><a href=""><i class="fas fa-cogs"></i> Avtomobilnye aksesuary</a></li>
+                <li><a href=""><i class="fas fa-video"></i> Vidoeregistratory</a></li>
+                <li><a href=""><i class="fas fa-tools"></i> Nabory and instrumenty</a></li>
+                <li><a href=""><i class="fas fa-tachometer-alt"></i> Kompressory and nasosy</a></li>
+                <li><a href=""><i class="fas fa-blender"></i> Plesosy</a></li>
+                <li><a href=""><i class="fas fa-phone"></i> Derjately dly telefona</a></li>
+              </ul>
+            </li>
+            <li><a href=""> <i class="fas fa-basketball-ball"></i> Sport</a>
+              <ul>
+                <li><a href=""><i class="fas fa-dumbbell"></i> Tovary dly sporta</a></li>
+                <li><a href=""><i class="fas fa-skateboard"></i> Electrosamakaty, velosipedy</a></li>
+                <li><a href=""><i class="fas fa-bicycle"></i> Velo acsesuary</a></li>
+                <li><a href=""><i class="fas fa-video"></i> Action sport camery</a></li>
+                <li><a href=""><i class="fas fa-ship"></i> Lodki nadufny</a></li>
+                <li><a href=""><i class="fas fa-watch"></i> Smart chasy and braslety</a></li>
+                <li><a href=""><i class="fas fa-glass-martini"></i> Butylki and sheykery</a></li>
+              </ul>
+            </li>
+            <li><a href=""> <i class="fas fa-cogs"></i> Gadgety</a>
+              <ul>
+                <li><a href=""><i class="fas fa-mobile-alt"></i> Gadgety dly mobilnysh telefonov</a></li>
+                <li><a href=""><i class="fas fa-lightbulb"></i> Nochniki svetovy Gatgety</a></li>
+                <li><a href=""><i class="fas fa-user-md"></i> Medik Gadgety</a></li>
+                <li><a href=""><i class="fas fa-headphones"></i> Naushniki</a></li>
+                <li><a href=""><i class="fas fa-watch"></i> Smart chasy and braslety</a></li>
+                <li><a href=""><i class="fas fa-random"></i> Raznye Gadgety</a></li>
+                <li><a href=""><i class="fas fa-bluetooth"></i> Blutuz kalonki and karaoki</a></li>
+                <li><a href=""><i class="fas fa-tablet-alt"></i> Gravicheskie planshety</a></li>
+                <li><a href=""><i class="fas fa-memory"></i> Flesh karty</a></li>
+                <li><a href=""><i class="fas fa-paw"></i> Gadgety for pets</a></li>
+              </ul>
+            </li>
+            <li><a href=""> <i class="fas fa-mobile-alt"></i> Telefony</a>
+              <ul>
+                <li><a href=""><i class="fas fa-mobile-alt"></i> Xiomi</a></li>
+                <li><a href=""><i class="fas fa-mobile-alt"></i> Blackview</a></li>
+                <li><a href=""><i class="fas fa-tablet-alt"></i> Plashety</a></li>
+                <li><a href=""><i class="fas fa-phone"></i> Another modeli</a></li>
+                <li><a href=""><i class="fas fa-cogs"></i> Gadgety for mobile</a></li>
+                <li><a href=""><i class="fas fa-memory"></i> Flesh karty</a></li>
+                <li><a href=""><i class="fas fa-mobile-alt"></i> Meizu</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-gift"></i> Podarki</a>
+              <ul>
+                <li><a href=""><i class="fas fa-keychain"></i> Breloki</a></li>
+                <li><a href=""><i class="fas fa-gift"></i> Podarochniy nabory</a></li>
+                <li><a href=""><i class="fas fa-cogs"></i> Krutiye Podarki</a></li>
+                <li><a href=""><i class="fas fa-laugh-beam"></i> Prikolniye Podarki</a></li>
+                <li><a href=""><i class="fas fa-wine-glass-alt"></i> Nabory for vine</a></li>
+                <li><a href=""><i class="fas fa-trophy"></i> Nagradnaya atributka</a></li>
+                <li><a href=""><i class="fas fa-calendar-alt"></i> Tovary for prazdnika</a></li>
+                <li><a href=""><i class="fas fa-ring"></i> Tovary for svadby</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-home"></i> Dlya doma</a>
+              <ul>
+                <li><a href=""><i class="fas fa-cogs"></i> Nujnoe and poleznoe</a></li>
+                <li><a href=""><i class="fas fa-electric-razor"></i> Elektro britvy and trimmery</a></li>
+                <li><a href=""><i class="fas fa-tooth"></i> Zubniye shetki and irrigatory</a></li>
+                <li><a href=""><i class="fas fa-sink"></i> Moiki and rakoviny</a></li>
+                <li><a href=""><i class="fas fa-shower"></i> Dusheviye sistemy and crany</a></li>
+                <li><a href=""><i class="fas fa-utensils"></i> Techilki for nojey</a></li>
+                <li><a href=""><i class="fas fa-balance-scale"></i> Vesy</a></li>
+                <li><a href=""><i class="fas fa-shield-alt"></i> Bezopastnost and oxrany</a></li>
+                <li><a href=""><i class="fas fa-desktop"></i> Kompyterniye stoly</a></li>
+                <li><a href=""><i class="fas fa-tools"></i> Instrumenty</a></li>
+                <li><a href=""><i class="fas fa-lightbulb"></i> Ulichnoe osvesheniye</a></li>
+                <li><a href=""><i class="fas fa-gift"></i> Suveniry</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-tv"></i> Texnika</a>
+              <ul>
+                <li><a href=""><i class="fas fa-tv"></i> Televisory</a></li>
+                <li><a href=""><i class="fas fa-projector"></i> Proektory</a></li>
+                <li><a href=""><i class="fas fa-tv"></i> TV pristavki Android</a></li>
+                <li><a href=""><i class="fas fa-laptop"></i> Noutbuku and monobloki</a></li>
+                <li><a href=""><i class="fas fa-vacuum"></i> Plesosy and paroochistitely</a></li>
+                <li><a href=""><i class="fas fa-tea"></i> Chainiki</a></li>
+                <li><a href=""><i class="fas fa-headphones-alt"></i> Stereo sistemy and saunbary</a></li>
+                <li><a href=""><i class="fas fa-dishwasher"></i> Posudamoiki</a></li>
+                <li><a href=""><i class="fas fa-microphone-alt"></i> Mikrovolnovki</a></li>
+                <li><a href=""><i class="fas fa-coffee"></i> Kofemashiny</a></li>
+                <li><a href=""><i class="fas fa-wind"></i> Ochistitely and uvlajnitely vozdusha</a></li>
+                <li><a href=""><i class="fas fa-hairdryer"></i> Feni and utujki</a></li>
+                <li><a href=""><i class="fas fa-snowflake"></i> Xolodilniki</a></li>
+                <li><a href=""><i class="fas fa-blender"></i> Blendery</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-utensils"></i> Posuda</a>
+              <ul>
+                <li><a href=""><i class="fas fa-thermometer"></i> Termosy</a></li>
+                <li><a href=""><i class="fas fa-mug-hot"></i> Termokrushki</a></li>
+                <li><a href=""><i class="fas fa-coffee"></i> Krujki</a></li>
+                <li><a href=""><i class="fas fa-pizza-slice"></i> Flyajki</a></li>
+                <li><a href=""><i class="fas fa-mug"></i> Termokrujki and prikurivtel</a></li>
+                <li><a href=""><i class="fas fa-glass-cheers"></i> Rumki</a></li>
+                <li><a href=""><i class="fas fa-cocktail"></i> For kokteiley</a></li>
+                <li><a href=""><i class="fas fa-cocktail"></i> Pivniye Bashni</a></li>
+                <li><a href=""><i class="fas fa-box"></i> Lanch-Boksy</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-gamepad"></i> Igrushki</a>
+              <ul>
+                <li><a href=""><i class="fas fa-gamepad"></i> Igrushki and razvlecheniye</a></li>
+                <li><a href=""><i class="fas fa-playstation"></i> Igroviye pristavki</a></li>
+                <li><a href=""><i class="fas fa-chess"></i> Game nastolniye</a></li>
+                <li><a href=""><i class="fas fa-gamepad"></i> Igrushki na radioupraflenie</a></li>
+                <li><a href=""><i class="fas fa-drone"></i> Kvadrokoptery and drony</a></li>
+                <li><a href=""><i class="fas fa-piggy-bank"></i> Elektronniye kopilki</a></li>
+                <li><a href=""><i class="fas fa-paint-brush"></i> Tvorchestvo</a></li>
+              </ul>
+            </li>
+            <li><a href=""><i class="fas fa-cogs"></i> Raznoe</a>
+              <ul>
+                <li><a href=""><i class="fas fa-baby"></i> Tovary for malyshey</a></li>
+                <li><a href=""><i class="fas fa-umbrella"></i> Zonty</a></li>
+                <li><a href=""><i class="fas fa-cogs"></i> Torgoviye oborudovanie</a></li>
+                <li><a href=""><i class="fas fa-hat-cowboy"></i> Shapki, kepki</a></li>
+                <li><a href=""><i class="fas fa-sunglasses"></i> Soncezashitnye ochki</a></li>
+                <li><a href=""><i class="fas fa-cogs"></i> Another</a></li>
+                <li><a href=""><i class="fas fa-bag"></i> Sumki, rukzaki, operativki</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="main_content_animation">
+          <div class="carousel">
+            <div class="carousel-track">
+              <img src="img/animation/volga.jpg" alt="Volga">
+              <img src="img/animation/iphon.jpg" alt="iPhone">
+              <img src="img/animation/naushniki.webp" alt="Headphones">
+              <img src="img/animation/noutbuki.jpg" alt="Volga">
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="carousel-wrapper">
+        <div class="new_colection" id="carousel">
+
+          <div class="collection_header">
+            <i class="fas fa-fire"></i> Хит продаж
+          </div>
+          <div class="collection_buttons">
+            <div class="collection_button" id="prevBtn">></div>
+            <div class="collection_button" id="nextBtn"><</div>
+            </div>
+
+            <div class="collection_container">
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/dron.jpeg" alt="Drone">
+                </div>
+                <div class="collection_text">
+                  <p>2KM GPS Drone 4K Professional with Obstacle Avoidance exlent</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>45,000₽</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/new_2.webp" alt="">
+                </div>
+                <div class="collection_text">
+                  <p>New collection of products - Collection - HOCO | The Premium Lifestyle Accessories</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>26500</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/new_3.jpg" alt="">
+                </div>
+                <div class="collection_text">
+                  <p>No7 unveils new collection featuring "world-first" peptide technology - TheIndustry.beauty</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>12000</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/new_4.jpg" alt="">
+                </div>
+                <div class="collection_text">
+                  <p>Where Modern Technology Meets Design | Design Milk exelent</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>45000</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/new_5.webp" alt="">
+                </div>
+                <div class="collection_text">
+                  <p>New collection of products - Collection - HOCO | The Premium Lifestyle Accessories</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>23000</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+              <div class="coolection_blog">
+                <div class="coolectoin_img">
+                  <img src="img/new_coolection/new_6.jpg" alt="">
+                </div>
+                <div class="collection_text">
+                  <p>Thorens - New Reference Collection - Brand Compilation - LP</p>
+                </div>
+                <div class="collectin_prace">
+                  <p>27500</p>
+                </div>
+                <button class="collection_korzina" data-product="Drone" data-price="45000">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bestsellers">
+        <div class="sellers_header">
+          <h1>Новинки</h1>
+        </div>
+        <div class="bestsellers_container">
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell.jpg" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+             <p>24300</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_2.jpg" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+            <p>12500</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_3.webp" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+             <p>23450</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_4.jpg" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+             <p>54700</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_5.webp" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+             <p>32900</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_6.avif" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+            <p>34500</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_7.avif" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+            <p>65000</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+          <div class="sellers_blog">
+            <div class="sellers_img">
+              <img src="img/bestsellers/sell_8.jpg" alt="">
+            </div>
+            <div class="sellers_text">
+              <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+            </div>
+            <div class="sellers_price">
+             <p>12400</p>
+            </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+          </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_9.webp" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+               <p>30000</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_10.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+              <p>32100</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_11.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+               <p>32140</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_12.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+              <p>44560</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_13.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+              <p>56400</p>
+              </div>
+            <button class="collection_korzina" data-product="Drone" data-price="45000">
+              Add to Cart
+            </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_14.avif" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+             <p>76499</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_15.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+              <p>65000</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+            <div class="sellers_blog">
+              <div class="sellers_img">
+                <img src="img/bestsellers/sell_16.jpg" alt="">
+              </div>
+              <div class="sellers_text">
+                <p>Камеры видеонаблюдения: вторжение в личную жизнь или необходимая мера безопасности?</p>
+              </div>
+              <div class="sellers_price">
+              <p>32100</p>
+              </div>
+              <button class="collection_korzina" data-product="Drone" data-price="45000">
+                Add to Cart
+              </button>
+            </div>
+        </div>
+      </div>
+      
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>New Era - Real Estetic. We bring you the best in modern living and technology integration.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email: baktiaruuluerbol5@gmail.com</p>
+      <p>Phone: +996555 87 95 62</p>
+      <p>Address: 45 Bishkek city, Kant</p>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook" style="font-size: 24px; color: #1877F2;"></i></a>
+        <a href="#"><i class="fab fa-twitter" style="font-size: 24px; color: #1DA1F2;"></i></a>
+        <a href="https://www.instagram.com/alekseytima8"><i class="fab fa-instagram" style="font-size: 24px; color: #E1306C;"></i></a>
+        <a href="https://www.linkedin.com/in/erbolotbaktiaruuulu-59302b25b/"><i class="fab fa-linkedin" style="font-size: 24px; color: #0077B5;"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 New Era. All Rights Reserved.</p>
+  </div>
+</footer>
+
+    </div>
+  </header>
+
+
+  <script src="eras.js"></script>
+</body>
+
+</html>
